@@ -1,0 +1,42 @@
+/* Custom styles for Alaa Ezz-Eldin Filter plugin */
+/* Add your styles here */
+
+.alaa-ezz-eldin-filter-form {
+    /* Style for the filter form container */
+    margin-bottom: 20px;
+}
+
+.alaa-ezz-eldin-filter-form form {
+    /* Style for the filter form */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.alaa-ezz-eldin-filter-form input[type="text"],
+.alaa-ezz-eldin-filter-form select {
+    /* Style for text inputs and select dropdowns */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.alaa-ezz-eldin-filter-form input[type="text"] {
+    /* Style for the text input */
+    grid-column: span 2;
+}
+
+.alaa-ezz-eldin-filter-form button {
+    /* Style for the apply filters button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alaa-ezz-eldin-filter-form button:hover {
+    /* Style for hover effect on the apply filters button */
+    background-color: #0056b3;
+}
